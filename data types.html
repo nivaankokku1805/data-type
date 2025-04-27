@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Type</title>
+</head>
+<body>
+<h1>Javascript While Loop</h1>
+<p id="number"></p>
+<script>
+    var text = "";
+    var i = 1;
+    while (i < 11){
+
+   text += "<br> The number is"+ i;
+   i++;
+    }
+  document.getElementById("number").innerHTML= text;
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+    <!--activity 2-->
+    <p>Click here to get time based greeting</p>
+    <button onclick="myfunction()">Try It</button>
+
+    <p id="greet"></p>
+    <p id="hour"></p>
+
+
+    <script>
+
+      function myfunction(){
+
+       var greeting;
+       var time = new Date().gethours();
+}
+     if (time <10){
+     greeting="Good Morning"
+}
+    else if(time < 20){
+     greeting = "Good Day"
+
+    }
+    else {
+        greeting = "Good Evening";
+    }
+    document.getElementById("hour").innerHTML= "Current hour is :"+ time;
+    document.getElementById("greet").innerHTML= greeting
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+     <!--activity1-->
+    <h1>JAVASCRIPT DATA TYPE</h1>
+
+<script>
+    var a = 8;
+     var b = 10;
+      var name = " Josehphin " ;
+       var d = null;
+       var presant = true
+       var e;//undifiend variable
+
+     {
+
+        let a = 2;
+        const b=8
+
+
+     }
+
+
+     document.write("the value of a is" + a)
+     document.write("<br>")
+      document.write("the value of b is" + b)
+        document.write("<br>")
+         document.write("the value of name is" + name)
+            document.write("<br>")
+             document.write("the value of presant is" + presant)
+                document.write("<br>")
+                 document.write("the value of d is" + d)
+                    document.write("<br>")
+                     document.write("the value of e is" + e)
+                        document.write("<br>")
+
+
+
+
+
+
+
+</script>
+
+
+
+    
+    
+</body>
+</html>
